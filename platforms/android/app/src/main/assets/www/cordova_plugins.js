@@ -21,7 +21,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "phonegap-plugin-push": "1.8.4",
-  "cordova-plugin-splashscreen": "5.0.2"
+  "cordova-plugin-splashscreen": "4.1.0"
 };
 // BOTTOM OF METADATA
 });
