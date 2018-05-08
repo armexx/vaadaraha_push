@@ -1,0 +1,19 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "phonegap-plugin-push": {
+      "SENDER_ID": "XXXXXXX",
+      "PACKAGE_NAME": "com.vaadaraha.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.vaadaraha.app"
+    }
+  },
+  "dependent_plugins": {}
+}
