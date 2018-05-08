@@ -16,6 +16,9 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.vaadaraha.app"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.vaadaraha.app"
     }
   },
   "dependent_plugins": {}
