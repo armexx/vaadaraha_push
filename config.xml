@@ -13,6 +13,7 @@
     <preference name="fullscreen" value="false" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="SplashScreen" value="splash" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="StatusBarOverlaysWebView" value="false" />
