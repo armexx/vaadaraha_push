@@ -80,16 +80,18 @@
 				}, 2000);
 		alert('Welcome');
 		
-				var push = PushNotification.init({ "android": {"senderID": "154258606648"},
+				var push = PushNotification.init({ "android": {"senderID": "509579782499"},
 					"ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
 					push.on('registration', function(data) {
 						deviceId = data.registrationId;
+						document.getElementById('container-frame').src = 'https://www.vaadaraha.com/index.php?devType=Android&deviceId='+deviceId;
 						alert('id:' +  deviceId );	
 										
 					}); 
 					
 					push.on('error', function(e) {
 						notificationFlag = false;
+						document.getElementById('container-frame').src = 'https://www.vaadaraha.com';
 						
 					}); 
 					push.on('notification', function(data) {
